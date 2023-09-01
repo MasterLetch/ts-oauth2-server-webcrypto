@@ -18,6 +18,9 @@ importers:
         specifier: ^4.4.1
         version: 4.4.1
     devDependencies:
+      '@cloudflare/workers-types':
+        specifier: ^4.20221111.1
+        version: 4.20230821.0
       '@types/body-parser':
         specifier: ^1.19.2
         version: 1.19.2
@@ -520,6 +523,10 @@ packages:
       '@babel/helper-string-parser': 7.21.5
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@cloudflare/workers-types@4.20230821.0:
+    resolution: {integrity: sha512-lVQSyr5E4CEkQw7WIdsrMTj+kHjsm28mJ0B5AhNFByKR+16KTFsU/RW/nGLKHHW2jxT5lvYI+HjNQMzC9QR8Ng==}
     dev: true
 
   /@cspotcode/source-map-support@0.8.1:

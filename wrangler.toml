@@ -1,0 +1,14 @@
+name="Oauth-server"
+main="src/index.ts"
+compatibility_date="2023-08-30"
+
+#compatibility_flags = [ "nodejs_compat" ]
+node_compat = true
+type = "javascript"
+
+
+rules = [
+    { type = "ESModule", globs = ["../shared/**/*.ts"], fallthrough = true },
+    { type = "ESModule", globs = ["src/**/*.ts"], fallthrough = true }
+]
+
